@@ -1,0 +1,28 @@
+.Box{
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    width: 100vw;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: white;
+    flex-direction: row;
+}
+
+.Image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    margin: 10px;
+    justify-content: space-evenly;
+  }
+  
+  .song-card {
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: white;
+  }
